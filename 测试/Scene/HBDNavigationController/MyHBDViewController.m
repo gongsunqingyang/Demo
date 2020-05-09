@@ -19,14 +19,16 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor whiteColor];
-    self.hbd_barAlpha = 0;
+    self.hbd_barHidden = YES;
             
     UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, [[UIApplication sharedApplication] statusBarFrame].size.height, 100, 44)];
     backBtn.backgroundColor = [UIColor grayColor];
+    [backBtn setTitle:@"pop" forState:UIControlStateNormal];
     [backBtn addTarget:self action:@selector(clickBackBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backBtn];
         
     UIButton *pushBtn = [[UIButton alloc] initWithFrame:CGRectMake(120, [[UIApplication sharedApplication] statusBarFrame].size.height, 100, 44)];
+    [pushBtn setTitle:@"push" forState:UIControlStateNormal];
     pushBtn.backgroundColor = [UIColor grayColor];
     [pushBtn addTarget:self action:@selector(clickPushBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pushBtn];
