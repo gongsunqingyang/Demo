@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F58ADE1A4AEE59038A9843B80A3D58 /* UIViewController+CWLateralSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = A72FF795EAE187CB734BD6441B57BD5B /* UIViewController+CWLateralSlide.m */; };
+		3A361A9C1BAEA4A8EB27ECA4C412428C /* HBDNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B0E305D00E2D3AAC083952BD6739E /* HBDNavigationBar.m */; };
+		3A95FB2D0978D36C3CCCDCF82FDDC5A1 /* UIViewController+HBD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA89AF838030819E340C9EE6A2E409B /* UIViewController+HBD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46DA9E38D294CCA0E1EA71328F063521 /* UIViewController+HBD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F144DAD20CFF2D5686BDB977B54A6 /* UIViewController+HBD.m */; };
+		51A5AAE4DAF4773329723E3EE186D99D /* CWLateralSlideConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 884ECEBD01956361AF37FC1B08C543E2 /* CWLateralSlideConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7862AC6EEAD54BDB820AE1824D98C9BB /* UIViewController+CWLateralSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = F7C90B568B969BE9D2D7C70482E8941F /* UIViewController+CWLateralSlide.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		790C714F4CE4DE972870749663BE7078 /* CWLateralSlideConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F06AE9E36C4BAA60878343721A8560 /* CWLateralSlideConfiguration.m */; };
+		7A6CCB8D2749B491759B5357A61AE799 /* CWLateralSlideAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C7FC632D2EF960A707ED11D7AA512 /* CWLateralSlideAnimator.m */; };
+		7C81F7308F9C26C89D6166FD6923E9F0 /* CWInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0D06EEC2786A7FCEEC089C691EDECB /* CWInteractiveTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89E291CA0907AE5A4066A371CECF23B6 /* HBDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DFF2CED8550C9513FCB5C352587EB7 /* HBDNavigationController.m */; };
+		932F5D5732552F96C96E070DC5A1EB28 /* CWDrawerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E6126353A599CF0A0E999BB30AF5D0 /* CWDrawerTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94F47F018C89F67EA5E79129922B1F05 /* HBDNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1F3D487743B315FEB21967CA804D21 /* HBDNavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FE90EF2B402B68C2F6EBB45BBD1EB0E /* Pods-测试-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C716EF67E3617596AAB815CA2302F /* Pods-测试-dummy.m */; };
+		B0574C99D1C0CD9E035428D6C54022DF /* CWLateralSlideAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A54ADCEAC0364EF194F98A0F72D4C3 /* CWLateralSlideAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D50B29CE9ACD689AFCC6C9E91B212FE3 /* CWDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AD0D7F9DCEDBC689089ABA531F045 /* CWDrawerTransition.m */; };
+		DBE2567F498660E2A474AEE0F0FC5D3A /* HBDNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27318EB2DDF101740CF606A33EE75D82 /* HBDNavigationBar-dummy.m */; };
+		DFDB0587E21CA907D9FFE6D7FBCABC2A /* HBDNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD11DE3AB995DD7561A15C91BE37360 /* HBDNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F304BFCDB2B1F80F421B16DC8DCDAEB0 /* CWLateralSlide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA00CFFEB160EE9DA24232A72A0E421 /* CWLateralSlide-dummy.m */; };
+		FAE82B42DC05402244C418C4131F9417 /* CWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D012304212360F2485A4620DFC2AEBF7 /* CWInteractiveTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F051AB170BC5852C64E282AE82E668B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4B75876F473C26B02A7768E4ABFDE0;
+			remoteInfo = CWLateralSlide;
+		};
+		BCA14196C47C25550C3E8203B9B6FEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1075D76821AB59C63D215759CC7CB0A7;
+			remoteInfo = HBDNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B9CBE06D25FF27020ADAFA00C4D5F0 /* CWLateralSlide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWLateralSlide.release.xcconfig; sourceTree = "<group>"; };
+		08A54ADCEAC0364EF194F98A0F72D4C3 /* CWLateralSlideAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideAnimator.h; path = CWLateralSlide/CWLateralSlideAnimator.h; sourceTree = "<group>"; };
+		090B0E305D00E2D3AAC083952BD6739E /* HBDNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationBar.m; path = HBDNavigationBar/Classes/HBDNavigationBar.m; sourceTree = "<group>"; };
+		0A0F144DAD20CFF2D5686BDB977B54A6 /* UIViewController+HBD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HBD.m"; path = "HBDNavigationBar/Classes/UIViewController+HBD.m"; sourceTree = "<group>"; };
+		0AD7A5E479FF6374329114F2B60ED824 /* HBDNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-prefix.pch"; sourceTree = "<group>"; };
+		27318EB2DDF101740CF606A33EE75D82 /* HBDNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBDNavigationBar-dummy.m"; sourceTree = "<group>"; };
+		2D6AD0D7F9DCEDBC689089ABA531F045 /* CWDrawerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWDrawerTransition.m; path = CWLateralSlide/CWDrawerTransition.m; sourceTree = "<group>"; };
+		3B574923FC86D7FFF3F2386C3DF05E3C /* Pods-测试-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-测试-acknowledgements.plist"; sourceTree = "<group>"; };
+		45459B59A8624C364E34DE160681B7D1 /* CWLateralSlide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWLateralSlide.debug.xcconfig; sourceTree = "<group>"; };
+		53F66B49697395B3A06B07D0F941AFAE /* HBDNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDNavigationBar.release.xcconfig; sourceTree = "<group>"; };
+		70E6126353A599CF0A0E999BB30AF5D0 /* CWDrawerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWDrawerTransition.h; path = CWLateralSlide/CWDrawerTransition.h; sourceTree = "<group>"; };
+		7A0D06EEC2786A7FCEEC089C691EDECB /* CWInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWInteractiveTransition.h; path = CWLateralSlide/CWInteractiveTransition.h; sourceTree = "<group>"; };
+		884ECEBD01956361AF37FC1B08C543E2 /* CWLateralSlideConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideConfiguration.h; path = CWLateralSlide/CWLateralSlideConfiguration.h; sourceTree = "<group>"; };
+		8D4C7FC632D2EF960A707ED11D7AA512 /* CWLateralSlideAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideAnimator.m; path = CWLateralSlide/CWLateralSlideAnimator.m; sourceTree = "<group>"; };
+		8DD11DE3AB995DD7561A15C91BE37360 /* HBDNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationController.h; path = HBDNavigationBar/Classes/HBDNavigationController.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA89AF838030819E340C9EE6A2E409B /* UIViewController+HBD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HBD.h"; path = "HBDNavigationBar/Classes/UIViewController+HBD.h"; sourceTree = "<group>"; };
+		A72FF795EAE187CB734BD6441B57BD5B /* UIViewController+CWLateralSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CWLateralSlide.m"; path = "CWLateralSlide/UIViewController+CWLateralSlide.m"; sourceTree = "<group>"; };
+		AC96A07D3EA6DB008BADB3DE76013BFA /* HBDNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBDNavigationBar.debug.xcconfig; sourceTree = "<group>"; };
+		AE3930D5005FC3F46CF361CA2FF9C67C /* CWLateralSlide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-prefix.pch"; sourceTree = "<group>"; };
+		BBA00CFFEB160EE9DA24232A72A0E421 /* CWLateralSlide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWLateralSlide-dummy.m"; sourceTree = "<group>"; };
+		D012304212360F2485A4620DFC2AEBF7 /* CWInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWInteractiveTransition.m; path = CWLateralSlide/CWInteractiveTransition.m; sourceTree = "<group>"; };
+		D1F06AE9E36C4BAA60878343721A8560 /* CWLateralSlideConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideConfiguration.m; path = CWLateralSlide/CWLateralSlideConfiguration.m; sourceTree = "<group>"; };
+		D3DFF2CED8550C9513FCB5C352587EB7 /* HBDNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationController.m; path = HBDNavigationBar/Classes/HBDNavigationController.m; sourceTree = "<group>"; };
+		DE1F3D487743B315FEB21967CA804D21 /* HBDNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationBar.h; path = HBDNavigationBar/Classes/HBDNavigationBar.h; sourceTree = "<group>"; };
+		E08FD7F25B46B7A9E412BFBDEAB4C3C8 /* libCWLateralSlide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCWLateralSlide.a; path = libCWLateralSlide.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13FFB53C160F8F6E8E27C8685E8DA54 /* Pods-测试-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-测试-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E94C716EF67E3617596AAB815CA2302F /* Pods-测试-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-测试-dummy.m"; sourceTree = "<group>"; };
+		EA1C52D17AA784CE072816816A1AF7F0 /* Pods-测试.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-测试.release.xcconfig"; sourceTree = "<group>"; };
+		F099220145930D9F0B05D0AD4648CA5E /* libPods-测试.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-测试.a"; path = "libPods-测试.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52CF2DA315890DB48B29FFA3DC87543 /* Pods-测试.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-测试.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C90B568B969BE9D2D7C70482E8941F /* UIViewController+CWLateralSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CWLateralSlide.h"; path = "CWLateralSlide/UIViewController+CWLateralSlide.h"; sourceTree = "<group>"; };
+		FC673151C5497BC8027FF15C04A83C54 /* libHBDNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHBDNavigationBar.a; path = libHBDNavigationBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B0F77C409B3E2EA71D6438EA07330E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C75C756AB70838359140BCD52CACCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82F5E346B9965BB85CD01AA177BCBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1717610221E3EEDEFA116B6273CC4D1F /* HBDNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				DE1F3D487743B315FEB21967CA804D21 /* HBDNavigationBar.h */,
+				090B0E305D00E2D3AAC083952BD6739E /* HBDNavigationBar.m */,
+				8DD11DE3AB995DD7561A15C91BE37360 /* HBDNavigationController.h */,
+				D3DFF2CED8550C9513FCB5C352587EB7 /* HBDNavigationController.m */,
+				9DA89AF838030819E340C9EE6A2E409B /* UIViewController+HBD.h */,
+				0A0F144DAD20CFF2D5686BDB977B54A6 /* UIViewController+HBD.m */,
+				DE04CA8C689FC7A18E3A9EB288733C47 /* Support Files */,
+			);
+			name = HBDNavigationBar;
+			path = HBDNavigationBar;
+			sourceTree = "<group>";
+		};
+		3D45F8D0F2CA0AB7F2D38B3CCCBB4D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E08FD7F25B46B7A9E412BFBDEAB4C3C8 /* libCWLateralSlide.a */,
+				FC673151C5497BC8027FF15C04A83C54 /* libHBDNavigationBar.a */,
+				F099220145930D9F0B05D0AD4648CA5E /* libPods-测试.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB39A78F8CB9A00071F8DBBE9A071B1 /* Pods-测试 */ = {
+			isa = PBXGroup;
+			children = (
+				E13FFB53C160F8F6E8E27C8685E8DA54 /* Pods-测试-acknowledgements.markdown */,
+				3B574923FC86D7FFF3F2386C3DF05E3C /* Pods-测试-acknowledgements.plist */,
+				E94C716EF67E3617596AAB815CA2302F /* Pods-测试-dummy.m */,
+				F52CF2DA315890DB48B29FFA3DC87543 /* Pods-测试.debug.xcconfig */,
+				EA1C52D17AA784CE072816816A1AF7F0 /* Pods-测试.release.xcconfig */,
+			);
+			name = "Pods-测试";
+			path = "Target Support Files/Pods-测试";
+			sourceTree = "<group>";
+		};
+		8018258A11BBBD53B509D4A1B91CF2FA /* CWLateralSlide */ = {
+			isa = PBXGroup;
+			children = (
+				70E6126353A599CF0A0E999BB30AF5D0 /* CWDrawerTransition.h */,
+				2D6AD0D7F9DCEDBC689089ABA531F045 /* CWDrawerTransition.m */,
+				7A0D06EEC2786A7FCEEC089C691EDECB /* CWInteractiveTransition.h */,
+				D012304212360F2485A4620DFC2AEBF7 /* CWInteractiveTransition.m */,
+				08A54ADCEAC0364EF194F98A0F72D4C3 /* CWLateralSlideAnimator.h */,
+				8D4C7FC632D2EF960A707ED11D7AA512 /* CWLateralSlideAnimator.m */,
+				884ECEBD01956361AF37FC1B08C543E2 /* CWLateralSlideConfiguration.h */,
+				D1F06AE9E36C4BAA60878343721A8560 /* CWLateralSlideConfiguration.m */,
+				F7C90B568B969BE9D2D7C70482E8941F /* UIViewController+CWLateralSlide.h */,
+				A72FF795EAE187CB734BD6441B57BD5B /* UIViewController+CWLateralSlide.m */,
+				BDB9196FD68809E58F96C1D185E29F7E /* Support Files */,
+			);
+			name = CWLateralSlide;
+			path = CWLateralSlide;
+			sourceTree = "<group>";
+		};
+		A94730F7C11C4C366BECE4B6DAF51986 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB39A78F8CB9A00071F8DBBE9A071B1 /* Pods-测试 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BDB9196FD68809E58F96C1D185E29F7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA00CFFEB160EE9DA24232A72A0E421 /* CWLateralSlide-dummy.m */,
+				AE3930D5005FC3F46CF361CA2FF9C67C /* CWLateralSlide-prefix.pch */,
+				45459B59A8624C364E34DE160681B7D1 /* CWLateralSlide.debug.xcconfig */,
+				04B9CBE06D25FF27020ADAFA00C4D5F0 /* CWLateralSlide.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CWLateralSlide";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				EE642EC5A4FC95269200C0BE7959C64F /* Pods */,
+				3D45F8D0F2CA0AB7F2D38B3CCCBB4D0E /* Products */,
+				A94730F7C11C4C366BECE4B6DAF51986 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE04CA8C689FC7A18E3A9EB288733C47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27318EB2DDF101740CF606A33EE75D82 /* HBDNavigationBar-dummy.m */,
+				0AD7A5E479FF6374329114F2B60ED824 /* HBDNavigationBar-prefix.pch */,
+				AC96A07D3EA6DB008BADB3DE76013BFA /* HBDNavigationBar.debug.xcconfig */,
+				53F66B49697395B3A06B07D0F941AFAE /* HBDNavigationBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HBDNavigationBar";
+			sourceTree = "<group>";
+		};
+		EE642EC5A4FC95269200C0BE7959C64F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8018258A11BBBD53B509D4A1B91CF2FA /* CWLateralSlide */,
+				1717610221E3EEDEFA116B6273CC4D1F /* HBDNavigationBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28F1DE936056BCF2568DF41884CB0D29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932F5D5732552F96C96E070DC5A1EB28 /* CWDrawerTransition.h in Headers */,
+				7C81F7308F9C26C89D6166FD6923E9F0 /* CWInteractiveTransition.h in Headers */,
+				B0574C99D1C0CD9E035428D6C54022DF /* CWLateralSlideAnimator.h in Headers */,
+				51A5AAE4DAF4773329723E3EE186D99D /* CWLateralSlideConfiguration.h in Headers */,
+				7862AC6EEAD54BDB820AE1824D98C9BB /* UIViewController+CWLateralSlide.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A0CD7A50359D56BEE74634A84444D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F47F018C89F67EA5E79129922B1F05 /* HBDNavigationBar.h in Headers */,
+				DFDB0587E21CA907D9FFE6D7FBCABC2A /* HBDNavigationController.h in Headers */,
+				3A95FB2D0978D36C3CCCDCF82FDDC5A1 /* UIViewController+HBD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0155EA0B2043BDEE88644726035908 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1075D76821AB59C63D215759CC7CB0A7 /* HBDNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDC5913956F8EC936074F99DA9DE134 /* Build configuration list for PBXNativeTarget "HBDNavigationBar" */;
+			buildPhases = (
+				637A0CD7A50359D56BEE74634A84444D /* Headers */,
+				42189D2FC4ECC47D72D77B932893F62A /* Sources */,
+				70B0F77C409B3E2EA71D6438EA07330E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBDNavigationBar;
+			productName = HBDNavigationBar;
+			productReference = FC673151C5497BC8027FF15C04A83C54 /* libHBDNavigationBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		464A178057B3385FE45B2EC6FFF2CA94 /* Pods-测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14559AF52E07F67491408090D1808EA1 /* Build configuration list for PBXNativeTarget "Pods-测试" */;
+			buildPhases = (
+				CF0155EA0B2043BDEE88644726035908 /* Headers */,
+				FDA7A90A5956B5763083BAB7CF68CD35 /* Sources */,
+				A82F5E346B9965BB85CD01AA177BCBDF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050DB6C78A9123A002C99B22D5449C1D /* PBXTargetDependency */,
+				A0AD28B75172429137652A6EC4CD9501 /* PBXTargetDependency */,
+			);
+			name = "Pods-测试";
+			productName = "Pods-测试";
+			productReference = F099220145930D9F0B05D0AD4648CA5E /* libPods-测试.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6C4B75876F473C26B02A7768E4ABFDE0 /* CWLateralSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72EFA50D80B178E3107FD4E74893A3A7 /* Build configuration list for PBXNativeTarget "CWLateralSlide" */;
+			buildPhases = (
+				28F1DE936056BCF2568DF41884CB0D29 /* Headers */,
+				6BF489E0C0059EAECBC4FBE1ECDE9FF0 /* Sources */,
+				8C75C756AB70838359140BCD52CACCE1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWLateralSlide;
+			productName = CWLateralSlide;
+			productReference = E08FD7F25B46B7A9E412BFBDEAB4C3C8 /* libCWLateralSlide.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3D45F8D0F2CA0AB7F2D38B3CCCBB4D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C4B75876F473C26B02A7768E4ABFDE0 /* CWLateralSlide */,
+				1075D76821AB59C63D215759CC7CB0A7 /* HBDNavigationBar */,
+				464A178057B3385FE45B2EC6FFF2CA94 /* Pods-测试 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42189D2FC4ECC47D72D77B932893F62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE2567F498660E2A474AEE0F0FC5D3A /* HBDNavigationBar-dummy.m in Sources */,
+				3A361A9C1BAEA4A8EB27ECA4C412428C /* HBDNavigationBar.m in Sources */,
+				89E291CA0907AE5A4066A371CECF23B6 /* HBDNavigationController.m in Sources */,
+				46DA9E38D294CCA0E1EA71328F063521 /* UIViewController+HBD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF489E0C0059EAECBC4FBE1ECDE9FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50B29CE9ACD689AFCC6C9E91B212FE3 /* CWDrawerTransition.m in Sources */,
+				FAE82B42DC05402244C418C4131F9417 /* CWInteractiveTransition.m in Sources */,
+				F304BFCDB2B1F80F421B16DC8DCDAEB0 /* CWLateralSlide-dummy.m in Sources */,
+				7A6CCB8D2749B491759B5357A61AE799 /* CWLateralSlideAnimator.m in Sources */,
+				790C714F4CE4DE972870749663BE7078 /* CWLateralSlideConfiguration.m in Sources */,
+				06F58ADE1A4AEE59038A9843B80A3D58 /* UIViewController+CWLateralSlide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7A90A5956B5763083BAB7CF68CD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE90EF2B402B68C2F6EBB45BBD1EB0E /* Pods-测试-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		050DB6C78A9123A002C99B22D5449C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CWLateralSlide;
+			target = 6C4B75876F473C26B02A7768E4ABFDE0 /* CWLateralSlide */;
+			targetProxy = 0F051AB170BC5852C64E282AE82E668B /* PBXContainerItemProxy */;
+		};
+		A0AD28B75172429137652A6EC4CD9501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBDNavigationBar;
+			target = 1075D76821AB59C63D215759CC7CB0A7 /* HBDNavigationBar */;
+			targetProxy = BCA14196C47C25550C3E8203B9B6FEDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E7F88D76683D81DD9BAA8E62E12CE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1C52D17AA784CE072816816A1AF7F0 /* Pods-测试.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4DAF3A65C8C83CB8D25F8D11FBACDD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52CF2DA315890DB48B29FFA3DC87543 /* Pods-测试.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68669143776E978F958A6112BC6CE829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC96A07D3EA6DB008BADB3DE76013BFA /* HBDNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HBDNavigationBar/HBDNavigationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HBDNavigationBar;
+				PRODUCT_NAME = HBDNavigationBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9CBDD245301173A6531A64C00A9A2714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F66B49697395B3A06B07D0F941AFAE /* HBDNavigationBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HBDNavigationBar/HBDNavigationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HBDNavigationBar;
+				PRODUCT_NAME = HBDNavigationBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C5CBF3AB62E8981646ECB1C360F83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45459B59A8624C364E34DE160681B7D1 /* CWLateralSlide.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CWLateralSlide/CWLateralSlide-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CWLateralSlide;
+				PRODUCT_NAME = CWLateralSlide;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F02EC94B50E5937E7465B58FABD34D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B9CBE06D25FF27020ADAFA00C4D5F0 /* CWLateralSlide.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CWLateralSlide/CWLateralSlide-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CWLateralSlide;
+				PRODUCT_NAME = CWLateralSlide;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14559AF52E07F67491408090D1808EA1 /* Build configuration list for PBXNativeTarget "Pods-测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAF3A65C8C83CB8D25F8D11FBACDD22 /* Debug */,
+				3E7F88D76683D81DD9BAA8E62E12CE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDC5913956F8EC936074F99DA9DE134 /* Build configuration list for PBXNativeTarget "HBDNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68669143776E978F958A6112BC6CE829 /* Debug */,
+				9CBDD245301173A6531A64C00A9A2714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72EFA50D80B178E3107FD4E74893A3A7 /* Build configuration list for PBXNativeTarget "CWLateralSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C5CBF3AB62E8981646ECB1C360F83C /* Debug */,
+				F02EC94B50E5937E7465B58FABD34D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
