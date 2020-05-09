@@ -14,12 +14,12 @@
     
     if (@available(iOS 13.0, *)) {
         ViewController *vc0 = [ViewController new];
-        vc0.title = @"ViewController";
         UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:vc0];
+        navVc.title = @"ViewController";
         
         MyHBDViewController *vc1 = [MyHBDViewController new];
-        vc1.title = @"HBD";
         HBDNavigationController *hbdNav = [[HBDNavigationController alloc] initWithRootViewController:vc1];
+        hbdNav.title = @"HBD";
         
         UITabBarController *tab = [[UITabBarController alloc] init];
         tab.viewControllers = @[navVc, hbdNav];
